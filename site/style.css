@@ -1,0 +1,102 @@
+body, html {
+margin:0px; 
+padding:0px;
+text-align:center;
+font: 20px/54px sans-serif;
+height: 100%;
+font-family: sans-serif;
+background: url(bg.jpg) repeat-x;
+background-size: 120% ;
+background-attachment:fixed;
+}
+#list{
+margin:0 auto; 
+text-align:left;
+width:100%; 
+}
+
+#header h1 {
+margin: 0;
+padding: 10px 0;
+}
+
+#left{
+position: fixed;
+top: 100px;
+width:300px;
+float:right;
+background-color: #C0C0C0;
+}
+
+#left ul{margin:10px; 
+padding:0;
+}
+#left li{list-style:circle; 
+padding:3px 0 3px 10px;
+}
+#left a{text-decoration:none; 
+color:#000000;
+}
+
+#content{
+margin:0px;
+margin-right:155px;
+margin-left:350px;
+}
+#content h1 {
+margin:0px;
+} 
+#content p {
+margin:0px;
+padding:5px;
+}
+
+#clear{
+height:0;
+font-size:1px;
+line-height:0px;
+clear:both;
+}
+
+#footer{
+bottom: 15px;
+right: 850px;
+text-align:center;
+}
+#footer p{
+margin:0px;
+padding: 10px 0;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+color: #2f1647;
+}
+
+h1, h2, h3 
+{
+font-family: Arial Black;
+}
+
+.podpis p{
+	text-align: center;
+}
+
+.podpis{
+	max-width: 800px;
+}
+
+img {
+float: center;
+}
+
+td {
+border: 2px double black;
+}
+th {
+color: #2f1647;
+border: 2px double black;
+}
+
+p{
+line-height: 120%;
+}
